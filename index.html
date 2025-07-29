@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KotkovTech - Next-Generation Digital Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">KotkovTech</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Parallax -->
+    <section id="home" class="hero-section">
+        <div class="parallax-bg"></div>
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-icon">✨</span>
+                <span>KotkovTech Digital Services</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Next-Generation</span>
+                <span class="title-line gradient-text">Digital Solutions</span>
+            </h1>
+            <div class="hero-logo">
+                <img src="kotkov-logo.png" alt="Kotkov Digital Services Logo" class="logo-main">
+            </div>
+            <p class="hero-description">
+                Presented by <strong>Volodymyr Kotkov</strong>. Professional digital services with a focus on quality and specialized AI solutions for content creation.
+            </p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">
+                    <span>Explore Services</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="https://wa.me/353874835929" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Contact Us</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Services Section - Premium Design -->
+    <section id="services" class="premium-services-section">
+        <div class="premium-bg">
+            <div class="floating-particles"></div>
+            <div class="gradient-overlay"></div>
+        </div>
+        
+        <div class="container">
+            <div class="premium-header">
+                <div class="luxury-badge">
+                    <span class="badge-glow"></span>
+                    <span class="badge-text">Our Expertise</span>
+                </div>
+                <h2 class="premium-title">
+                    <span class="title-word" data-text="Comprehensive">Comprehensive</span>
+                    <span class="title-word gradient-gold" data-text="Digital">Digital</span>
+                    <span class="title-word" data-text="Services">Services</span>
+                </h2>
+                <p class="premium-subtitle">A full range of cutting-edge digital solutions to accelerate your business growth</p>
+            </div>
+            
+            <div class="premium-services-carousel">
+                <div class="carousel-container">
+                    <button class="carousel-arrow carousel-arrow-left" id="prevSlide">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-arrow carousel-arrow-right" id="nextSlide">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="service-slide active" data-service="websites">
+                        <div class="premium-card">
+                            <div class="card-glow"></div>
+                            <div class="card-content">
+                                <div class="service-icon-premium">
+                                    <div class="icon-bg"></div>
+                                    <i class="fas fa-globe"></i>
+                                    <div class="icon-particles"></div>
+                                </div>
+                                <h3 class="service-title-premium">Website Creation</h3>
+                                <p class="service-desc-premium">Professional development of websites of any complexity with modern technologies</p>
+                                
+                                <div class="pricing-showcase">
+                                    <div class="price-item luxury">
+                                        <span class="price-label">Simple Website</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="1000">0</span>
+                                            <span class="range">-2,000</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-item luxury">
+                                        <span class="price-label">Average Website</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="2000">0</span>
+                                            <span class="range">-5,000</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-item luxury">
+                                        <span class="price-label">Complex Website</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="5000">0</span>
+                                            <span class="range">-10,000+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-slide" data-service="marketing">
+                        <div class="premium-card">
+                            <div class="card-glow"></div>
+                            <div class="card-content">
+                                <div class="service-icon-premium">
+                                    <div class="icon-bg"></div>
+                                    <i class="fas fa-bullseye"></i>
+                                    <div class="icon-particles"></div>
+                                </div>
+                                <h3 class="service-title-premium">Digital Marketing</h3>
+                                <p class="service-desc-premium">PPC campaigns, targeted advertising and comprehensive promotion strategies</p>
+                                
+                                <div class="pricing-showcase">
+                                    <div class="price-item luxury">
+                                        <span class="price-label">Basic Social Media</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="300">0</span>
+                                            <span class="range">-600/mo</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-item luxury">
+                                        <span class="price-label">Comprehensive Package</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="1000">0</span>
+                                            <span class="range">-2,500/mo</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-item luxury">
+                                        <span class="price-label">SEO + PPC + Social</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="2500">0</span>
+                                            <span class="range">+/mo</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-slide" data-service="ai">
+                        <div class="premium-card">
+                            <div class="card-glow"></div>
+                            <div class="card-content">
+                                <div class="service-icon-premium">
+                                    <div class="icon-bg"></div>
+                                    <i class="fas fa-robot"></i>
+                                    <div class="icon-particles"></div>
+                                </div>
+                                <h3 class="service-title-premium">AI Services</h3>
+                                <p class="service-desc-premium">Modern AI-powered solutions for avatar creation and video content</p>
+                                
+                                <div class="pricing-showcase">
+                                    <div class="price-item luxury">
+                                        <span class="price-label">AI Avatar Creation</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="100">0</span>
+                                            <span class="range">-300 per avatar</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-item luxury">
+                                        <span class="price-label">AI Video Content</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="200">0</span>
+                                            <span class="range">-500 per min</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-item luxury">
+                                        <span class="price-label">Custom AI Solutions</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="1000">0</span>
+                                            <span class="range">+ custom</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-slide" data-service="setup">
+                        <div class="premium-card">
+                            <div class="card-glow"></div>
+                            <div class="card-content">
+                                <div class="service-icon-premium">
+                                    <div class="icon-bg"></div>
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <div class="icon-particles"></div>
+                                </div>
+                                <h3 class="service-title-premium">Page Setup & Optimization</h3>
+                                <p class="service-desc-premium">Professional setup and optimization of business profiles on social networks</p>
+                                
+                                <div class="pricing-showcase">
+                                    <div class="price-item luxury">
+                                        <span class="price-label">Instagram Business</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="150">0</span>
+                                            <span class="range">-300</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-item luxury">
+                                        <span class="price-label">Official Page Setup</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="100">0</span>
+                                            <span class="range">-250</span>
+                                        </div>
+                                    </div>
+                                    <div class="price-item luxury">
+                                        <span class="price-label">Complete Brand Package</span>
+                                        <div class="price-value">
+                                            <span class="currency">€</span>
+                                            <span class="amount" data-target="250">0</span>
+                                            <span class="range">-500</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="about" class="about-section">
+        <div class="container">
+            <div class="about-header">
+                <span class="section-badge">About Me</span>
+                <h2 class="section-title">Volodymyr Kotkov</h2>
+                <p class="section-description">Professional Software Developer & Digital Technology Expert</p>
+            </div>
+            
+            <div class="about-content-wrapper">
+                <div class="about-image-container">
+                    <img src="profile_photo.jpg" alt="Volodymyr Kotkov" class="about-profile-photo">
+                    <div class="photo-overlay"></div>
+                    <div class="photo-glow"></div>
+                </div>
+                <div class="about-text-content">
+                    <div class="about-intro-block">
+                        <h3>Education & Expertise</h3>
+                        <div class="education-item">
+                            <h4>Master's Degree in Software Development</h4>
+                            <p>Open International University of Human Development</p>
+                        </div>
+                        <p class="client-info">My clients are worldwide, and I work with all types of businesses, including construction companies, beauty studios, bloggers, shops, services, sales brokers in various fields, and more.</p>
+                    </div>
+                    
+                    <div class="certifications-block">
+                        <h3>Professional Certifications</h3>
+                        <ul>
+                            <li>Cyber Security Expert</li>
+                            <li>Data Protection ICDL Professional</li>
+                            <li>Software Testing Course</li>
+                            <li>SEO Specialist Course</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-block">
+                        <h3>Experience & Skills</h3>
+                        <p>I have experience in software development, I specialize in creating robust, scalable, and secure applications. My expertise spans across full-stack development, cloud architecture, and AI-driven solutions.</p>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">AI Integration</span>
+                        </div>
+                    </div>
+
+                    <div class="philosophy-block">
+                        <h3>My Philosophy</h3>
+                        <p>I believe in leveraging cutting-edge technology to solve real-world problems and deliver tangible value to businesses. My approach combines technical excellence with a deep understanding of client needs, ensuring solutions are not just functional but also impactful and future-proof.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="benefits-text">
+                    <h2 class="section-title">Why Choose KotkovTech</h2>
+                    <p class="section-description">Experience the advantages of working with a dedicated digital technology expert</p>
+                    
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>Advanced Education & Certifications</h4>
+                                <p>Master's degree in Software Development with multiple professional certifications in cybersecurity, data protection, and testing</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>Expertise in Digital Technologies</h4>
+                                <p>Deep knowledge of modern web technologies, AI solutions, and comprehensive digital security practices</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>Individual Professional Approach</h4>
+                                <p>Personalized solutions tailored to your specific business needs with proven track record</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4>Competitive Global Pricing</h4>
+                                <p>High-quality services at competitive rates for the international market with full development cycle support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-visual">
+                    <div class="floating-elements">
+                        <div class="floating-card">
+                            <i class="fas fa-code"></i>
+                            <span>Modern Tech</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-rocket"></i>
+                            <span>Fast Delivery</span>
+                        </div>
+                        <div class="floating-card">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Reliable</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Technologies</span>
+                <h2 class="section-title">Modern Tech Stack</h2>
+                <p class="section-description">Cutting-edge technologies that power our solutions</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Design</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Modern UI/UX</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-magic"></i>
+                            <span>Animations</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-eye"></i>
+                            <span>Parallax</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>AI & Tools</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fas fa-brain"></i>
+                            <span>AI Integration</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Analytics</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud Services</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cog"></i>
+                            <span>Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Note -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-card">
+                <div class="pricing-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Important Pricing Information</h3>
+                <p>Prices are estimates and may vary based on specific project requirements, scope, and client negotiations. Discounts may be available for bundled services or long-term contracts. All prices are exclusive of VAT, which will be applied as per Irish tax regulations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Ready to Start Your Project?</h2>
+                    <p class="section-description">Contact us to discuss your project and receive a personalized offer</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:workemailoffice90@gmail.com">workemailoffice90@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+353874835929">+353 87 483 5929</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Location</span>
+                                <span>Killarney, Ireland</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Instagram</span>
+                                <a href="https://www.instagram.com/kotkovtech?igsh=MWw3MTE2ODcxZDVjbg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">@kotkovtech</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/volodymyr-kotkov-4707b9354/" target="_blank" rel="noopener noreferrer">Volodymyr Kotkov</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-buttons">
+                        <a href="https://wa.me/353874835929" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            <img src="whatsapp.svg" alt="WhatsApp" class="whatsapp-icon">
+                            <span>Start WhatsApp Chat</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-visual">
+                    <div class="rocket-animation">
+                        <img src="rocket.gif" alt="Rocket Animation" class="rocket-gif">
+                        <div class="target-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                            <div class="ring ring-4"></div>
+                            <div class="target-center"></div>
+                        </div>
+                        <div class="stars">
+                            <div class="star star-1"></div>
+                            <div class="star star-2"></div>
+                            <div class="star star-3"></div>
+                            <div class="star star-4"></div>
+                            <div class="star star-5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">KotkovTech</span>
+                </div>
+                <p class="footer-text">&copy; 2025 KotkovTech. All rights reserved. Presented by Volodymyr Kotkov.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="premium-carousel.js"></script>
+</body>
+</html>
+
